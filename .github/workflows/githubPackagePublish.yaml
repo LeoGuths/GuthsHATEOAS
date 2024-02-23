@@ -6,6 +6,7 @@ on:
     
 env:
   PROJECT_PATH: Guths.HATEOAS
+  NUGET_SOURCE: https://nuget.pkg.github.com/LeoGuths/index.json
 
 jobs:
   build:
@@ -27,6 +28,6 @@ jobs:
           dotnet build -c Release --property WarningLevel=0 -o out
 
       - name: Nuget push
-        run: dotnet nuget push ${{ env.PROJECT_PATH }}/out/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/LeoGuths/index.json" --skip-duplicate
+        run: dotnet nuget push ${{ env.PROJECT_PATH }}/out/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source ${{ env.NUGET_SOURCE }} --skip-duplicate
           
           
