@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Guths.HATEOAS/9.0.1.0": {
+        "runtime": {
+          "Guths.HATEOAS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Guths.HATEOAS/9.0.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

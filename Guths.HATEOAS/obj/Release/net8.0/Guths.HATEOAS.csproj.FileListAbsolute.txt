@@ -1,0 +1,11 @@
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\bin\Release\net8.0\Guths.HATEOAS.deps.json
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\bin\Release\net8.0\Guths.HATEOAS.dll
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\bin\Release\net8.0\Guths.HATEOAS.pdb
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\Guths.HATEOAS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\Guths.HATEOAS.AssemblyInfoInputs.cache
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\Guths.HATEOAS.AssemblyInfo.cs
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\Guths.HATEOAS.csproj.CoreCompileInputs.cache
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\Guths.HATEOAS.dll
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\refint\Guths.HATEOAS.dll
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\Guths.HATEOAS.pdb
+C:\Projects\GuthsHATEOAS\Guths.HATEOAS\obj\Release\net8.0\ref\Guths.HATEOAS.dll

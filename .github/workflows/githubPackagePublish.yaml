@@ -1,0 +1,32 @@
+name: Publish .Net Nuget Package
+
+on:
+  push:
+    branches: ['master']
+    
+env:
+  PROJECT_PATH: Guths.HATEOAS
+
+jobs:
+  build:
+    name: Build and Push Nuget Package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup .Net
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+          
+      - name: Restore dependencies and build
+        run: |
+          cd ${{ env.PROJECT_PATH }}
+          dotnet restore
+          dotnet build -c Release --property WarningLevel=0 -o out
+
+      - name: Nuget push
+        run: dotnet nuget push ${{ env.PROJECT_PATH }}/out/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/LeoGuths/index.json" --skip-duplicate
+          
+          

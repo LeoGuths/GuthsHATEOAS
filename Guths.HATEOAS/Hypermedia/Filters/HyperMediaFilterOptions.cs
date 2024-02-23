@@ -1,0 +1,8 @@
+﻿using Guths.HATEOAS.Hypermedia.Abstract;
+
+namespace Guths.HATEOAS.Hypermedia.Filters;
+
+public class HyperMediaFilterOptions
+{
+    public List<IResponseEnricher> ContentResponseEnricherList { get; set; } = new List<IResponseEnricher>();
+}
